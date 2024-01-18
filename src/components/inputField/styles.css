@@ -1,0 +1,32 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+.input-field {
+    width: 22.5rem;
+    height: 2rem;
+    border-radius: 8px;
+    background-color: #F5FCFF;
+    color: #1E5167;
+    border: 1px solid #1E5167;
+    padding: 0rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.error-field {
+    border: 1px solid #FF0000;
+}
+
+.label {
+    color: #1E5167;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 600px){
+    .input-field {
+        width: 20.375rem;
+    }
+}
